@@ -209,7 +209,3 @@ MIT License - feel free to use for learning and development!
 **Database Issues:**
 - Delete `financial_data.db` and restart
 - Will automatically recreate with sample data
-
----
-
-**Built with ❤️ using LangChain, LangGraph, and Google Gemini**
