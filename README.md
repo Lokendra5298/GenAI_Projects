@@ -317,7 +317,3 @@ Future enhancements:
 - [ ] Batch processing of video playlists
 - [ ] Custom agent creation interface
 - [ ] Multi-language support
-
----
-
-Built with using LangGraph, LangChain, and Google Gemini
