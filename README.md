@@ -2,11 +2,11 @@
 
 A collection of hands-on projects exploring **Generative AI** and **RAG (Retrieval-Augmented Generation)** systems. Each project demonstrates practical applications of cutting-edge AI technologies.
 
-## 📚 About
+## About
 
 This repository contains learning projects and experiments with generative AI frameworks, large language models, and advanced retrieval systems. The projects showcase real-world applications from financial analysis to academic research navigation.
 
-## 🛠️ Technologies & Stack
+## Technologies & Stack
 
 - **LLM Frameworks**: LangChain, LangGraph
 - **Language Models**: Google Gemini, OpenAI GPT
@@ -17,14 +17,9 @@ This repository contains learning projects and experiments with generative AI fr
 - **Core Language**: Python 3.8+
 - **Notebooks**: Jupyter Notebook
 
-## 📊 Repository Composition
+## Projects
 
-- **Jupyter Notebooks (95.9%)** - Interactive explorations, tutorials, and experiments
-- **Python Scripts (4.1%)** - Utility functions, modules, and supporting code
-
-## 🚀 Projects
-
-### 1. **Scholarly Research Navigator** 📚
+### 1. **Scholarly Research Navigator** 
 *AI-powered academic paper discovery and literature review generator*
 
 **Features:**
@@ -41,7 +36,7 @@ This repository contains learning projects and experiments with generative AI fr
 
 ---
 
-### 2. **SEC Financial Analyst** 💰
+### 2. **SEC Financial Analyst** 
 *Multi-tool agentic framework for SEC 10-K filing analysis*
 
 **Features:**
@@ -58,7 +53,7 @@ This repository contains learning projects and experiments with generative AI fr
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through these projects, you'll learn:
 
@@ -71,7 +66,7 @@ Through these projects, you'll learn:
 ✅ Streamlit for rapid prototyping  
 ✅ LLM-powered decision making  
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -119,7 +114,7 @@ streamlit run streamlit_app.py
 python main.py
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 GenAI_Projects/
@@ -138,7 +133,7 @@ GenAI_Projects/
 └── README.md (this file)
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### For Each Project:
 
@@ -160,7 +155,7 @@ GenAI_Projects/
 "Compare Apple and Microsoft's financial performance and explain the differences"
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Setting API Keys
 
@@ -174,7 +169,7 @@ export GOOGLE_API_KEY="your-api-key-here"
 
 Get your API key from: [Google AI Studio](https://aistudio.google.com/app/apikey)
 
-## 💡 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 ### RAG Systems
 - Data ingestion and preprocessing
@@ -194,7 +189,7 @@ Get your API key from: [Google AI Studio](https://aistudio.google.com/app/apikey
 - Chain-of-thought prompting
 - Output parsing
 
-## 🧪 Testing & Troubleshooting
+## Testing & Troubleshooting
 
 ### Common Issues
 
@@ -217,7 +212,7 @@ pip install --upgrade -r requirements.txt
 - Delete cached indices and rebuild
 - Verify disk space availability
 
-## 📚 Resources & References
+## Resources & References
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
@@ -225,7 +220,7 @@ pip install --upgrade -r requirements.txt
 - [Retrieval-Augmented Generation Paper](https://arxiv.org/abs/2005.11401)
 - [ArXiv API Documentation](https://arxiv.org/help/api)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Fork the repository
@@ -234,24 +229,11 @@ Contributions are welcome! Feel free to:
 - Report issues
 - Suggest improvements
 
-## 📝 License
+## License
 
 This project is open source and available under the **MIT License**.
 
-## 👤 Author
-
-**Lokendra5298**
-
-- GitHub: [@Lokendra5298](https://github.com/Lokendra5298)
-- Repository: [GenAI_Projects](https://github.com/Lokendra5298/GenAI_Projects)
-
-## 📞 Support & Questions
-
-- Open an **GitHub Issue** for bugs or feature requests
-- Check project-specific READMEs for detailed documentation
-- Review code comments and docstrings for implementation details
-
-## 🎓 Learning Path
+## Learning Path
 
 **Recommended order for learning:**
 
@@ -260,11 +242,3 @@ This project is open source and available under the **MIT License**.
 3. Study the Research Navigator for advanced RAG implementation
 4. Experiment and modify projects to build intuition
 5. Build your own GenAI applications!
-
----
-
-**Last Updated:** June 2026  
-**Python Version:** 3.8+  
-**Status:** Active Development 🚀
-
-Happy learning! Let's build amazing AI applications together! 🎉
