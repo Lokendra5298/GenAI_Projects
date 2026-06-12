@@ -1,0 +1,24 @@
+# Core Dependencies
+streamlit==1.31.0
+langchain==0.1.10
+langchain-google-genai==0.0.9
+langgraph==0.0.26
+langchain-community==0.0.24
+
+# Embeddings & Vector Store
+sentence-transformers==2.3.1
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# Database
+sqlalchemy==2.0.25
+pandas==2.2.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.1
+numpy==1.26.3
+
+# Data Processing
+beautifulsoup4==4.12.3
+requests==2.31.0
