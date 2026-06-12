@@ -1,0 +1,58 @@
+[
+  {
+    "id": "0704.0001",
+    "submitter": "Pavel Nadolsky",
+    "authors": "C. Balázs, E. L. Berger, P. M. Nadolsky, C.-P. Yuan",
+    "title": "Calculation of prompt diphoton production cross sections at Tevatron and LHC energies",
+    "comments": "37 pages, 15 figures; minor changes to match version to be published in Phys. Rev. D",
+    "journal-ref": "Phys.Rev.D76:013009,2007",
+    "doi": "10.1103/PhysRevD.76.013009",
+    "report-no": "ANL-HEP-PR-07-12",
+    "categories": "hep-ph",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "abstract": "  A fully differential calculation in perturbative quantum chromodynamics is presented for the production of massive photon pairs at hadron colliders. All fully differential distributions necessary for computing any infrared-safe observable at the next-to-leading order are included. The full contribution from the two-loop $gg\\to\\gamma\\gamma$ subprocess as well as the non-identical quark-antiquark annihilation subprocesses through order $\\alpha_s^2$ are included. The dominant next-to-next-to-leading order $\\mathcal{O}(\\alpha_s^3)$ corrections to the $q\\bar{q}\\to\\gamma\\gamma$ channel are included in the form of the soft, hard, and collinear contributions.\n",
+    "update_date": "2008-11-26"
+  },
+  {
+    "id": "2305.10429",
+    "submitter": "Edward J. Hu",
+    "authors": "Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen",
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "comments": "ICLR 2022",
+    "journal-ref": null,
+    "doi": "10.48550/arXiv.2106.09685",
+    "report-no": null,
+    "categories": "cs.LG cs.CL",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which fine-tunes all model parameters, becomes less feasible. While methods such as adapters and prefix tuning provide parameter-efficient transfer learning, it is not clear whether these methods are parameter-efficient at larger scales. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency.\n",
+    "update_date": "2023-05-18"
+  },
+  {
+    "id": "1706.03762",
+    "submitter": "Ashish Vaswani",
+    "authors": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin",
+    "title": "Attention Is All You Need",
+    "comments": "31 pages",
+    "journal-ref": "NeurIPS 2017",
+    "doi": null,
+    "report-no": null,
+    "categories": "cs.CL cs.LG",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "abstract": "  The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.\n",
+    "update_date": "2023-02-15"
+  },
+  {
+    "id": "2401.02954",
+    "submitter": "Haotian Liu",
+    "authors": "Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee",
+    "title": "Visual Instruction Tuning",
+    "comments": "NeurIPS 2023",
+    "journal-ref": null,
+    "doi": "10.48550/arXiv.2304.08485",
+    "report-no": null,
+    "categories": "cs.CV cs.AI cs.CL cs.LG",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "abstract": "  Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on a wide range of tasks, but the idea is less explored in the multimodal field. In this paper, we present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and LLM for general-purpose visual and language understanding.Our early experiments show that LLaVA demonstrates impressive multimodel chat abilities, sometimes exhibiting the behaviors of multimodal GPT-4 on unseen images/instructions, and yields a 85.1% relative score compared with GPT-4 on a synthetic multimodal instruction-following evaluation. When fine-tuned on Science QA, the synergy of LLaVA and GPT-4 achieves a new state-of-the-art accuracy of 92.53%. We make GPT-4 generated visual instruction data, our model, and code base publicly available.\n",
+    "update_date": "2024-01-10"
+  }
+]
